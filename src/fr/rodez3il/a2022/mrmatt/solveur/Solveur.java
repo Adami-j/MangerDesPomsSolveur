@@ -1,6 +1,7 @@
 package fr.rodez3il.a2022.mrmatt.solveur;
 
-import fr.rodez3il.a2022.mrmatt.sources.Niveau;
+
+import fr.rodez3il.a2022.mrmatt.sourcespartielles.Niveau;
 
 public class Solveur {
 
@@ -9,7 +10,7 @@ public class Solveur {
 	}
 	
 	public static void main(String[] args) {
-		String solution = trouverSolution(new Niveau("niveaux/1rocher.txt"));
+		String solution = trouverSolution(new Niveau("src/niveaux/1rocher.txt"));
 		if (solution == null) {
 			System.out.println("Pas de solution.");
 		} else {
