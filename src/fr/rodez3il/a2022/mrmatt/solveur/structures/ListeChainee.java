@@ -1,6 +1,10 @@
 package fr.rodez3il.a2022.mrmatt.solveur.structures;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class ListeChainee<T> implements Liste<T> {
+
 
     @Override
     public void ajouter(T element) {
